@@ -1,11 +1,14 @@
 {
-  "name": "knex-migrate",
-  "version": "1.7.4",
+  "name": "knex-super-migrate",
+  "version": "2.0.0",
   "license": "MIT",
   "bin": "src/cli.js",
   "author": "Adam Stankiewicz <sheerun@sher.pl>",
-  "repository": "sheerun/knex-migrate",
-  "description": "Modern migration toolkit for knex.js",
+  "maintainers": [
+    "Mark Will <me@themark.dev>"
+  ],
+  "repository": "https://github.com/themarkwill/knex-migrate",
+  "description": "Modern migration toolkit for knex.js with TypeScript Support",
   "main": "src/index.js",
   "dependencies": {
     "bluebird": "^3.4.6",
